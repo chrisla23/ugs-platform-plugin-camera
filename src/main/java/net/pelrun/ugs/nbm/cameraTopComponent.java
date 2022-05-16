@@ -78,7 +78,7 @@ public final class cameraTopComponent extends TopComponent implements WebcamDisc
 
         setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         setDisplayName(org.openide.util.NbBundle.getMessage(cameraTopComponent.class, "cameraTopComponent.displayName")); // NOI18N
-        setMinimumSize(new java.awt.Dimension(340, 200));
+        setMinimumSize(new java.awt.Dimension(1024, 768));
 
         org.openide.awt.Mnemonics.setLocalizedText(cameraLabel, org.openide.util.NbBundle.getMessage(cameraTopComponent.class, "cameraTopComponent.cameraLabel.text")); // NOI18N
 
