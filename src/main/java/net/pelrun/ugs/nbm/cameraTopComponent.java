@@ -163,7 +163,7 @@ public final class cameraTopComponent extends TopComponent implements WebcamDisc
         if (w != null)
         {
             webcam = w;
-            webcam.setViewSize(WebcamResolution.HD.getSize());
+            webcam.setViewSize(WebcamResolution.VGA.getSize());
             webcamPanel = new WebcamPanel(webcam, null, false);
             webcamPanel.setFitArea(true);
 
